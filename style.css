@@ -1,0 +1,243 @@
+body, html {
+    /* margin: 2% 2% 2% 2%; */
+    padding: 2% -2% 2% 2%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color:black;
+    color: white;
+}
+
+.r {
+    background: url(./home-bg.jpg) no-repeat center center/cover;
+    height: 150vh;
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+   
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.r h1 {
+    font-size: 25px;
+}
+
+.highlight {
+    font-size: 2em;
+    color: red;
+    border: 2px solid red;
+    padding: 5px 20px;
+    display: inline-block;
+}
+.services-content .icon1{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50%;
+    border-color:solid white;
+}
+ .l{
+    
+    width: 60px; 
+    height: 60px;
+    border-radius: 50%;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+
+}
+
+.services, .about, .portfolio, .contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.services h2, .about h2, .portfolio h2, .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.services-content, .about-content, .portfolio-content, .contact-content {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.service-item, .portfolio-item, .contact-info, .contact-form {
+    flex: 1;
+    padding: 20px;
+}
+
+.service-item i, .contact-info i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.about-content {
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-description {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-description ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-description ul li {
+    margin: 10px 0;
+}
+
+.skills {
+    width: 100%;
+    max-width: 600px;
+   
+}
+
+.skill {
+    margin: 20px 0 20px;
+    display: flex;
+    justify-content:space-around;
+    
+}
+
+.skill span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: red;
+    height: 6px;
+    width: 100%;
+}
+
+.skill-bar1 {
+    background-color:white;
+    height: 6px;
+    width: 100%;
+}
+.portfolio-content {
+    display:flex;
+
+}
+
+.portfolio-content1 {
+    display:flex;
+    
+}
+portfolio :hover{
+    color: red;
+}
+.portfolio-item {
+   display: flex;
+    margin: 10px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact-content {
+    flex-direction: row;
+}
+
+.contact-info {
+    flex: 1;
+}
+
+.contact-form {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px;
+    background-color: red;
+   
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: black;
+}
+.wl{
+    display: flex;
+}
+
+footer p {
+    margin: 0;
+}
+@media screen and (max-width:425px) {
+         body, html {
+            /* margin: 2% 2% 2% 2%; */
+            padding: 2% -7% 2% 2%;
+           
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+            background-color:black;
+            color: white;
+        }
+        .r {
+            background: url(./home-bg.jpg) no-repeat center center/cover;
+            height: 100%;
+            margin-left: 0%;
+            height:100%;
+            width: 170%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+}
+.services .services-content .service-item{
+    /* padding: 1% 0% 0% 40%; */
+    margin-left: -20%;
+
+}
+
+}
+@media screen and (max-width:765px) {
+    body, html {
+       /* margin: 2% 2% 2% 2%; */
+       padding: 2% -7% 2% 2%;
+      
+       font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+       background-color:black;
+       color: white;
+   }
+   .r {
+       background: url(./home-bg.jpg) no-repeat center center/cover;
+       height: 100%;
+       margin-left: 0%;
+       height:100%;
+       width: 130%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       text-align: center;
+   }
+}
